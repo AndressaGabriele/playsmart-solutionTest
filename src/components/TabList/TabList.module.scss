@@ -1,28 +1,35 @@
 @import "../../common/styles/variables";
 
 .navTabs {
-    order: 3;
-    display: flex;
-    width: 100%;
-    gap: .5rem;
+  grid-row: 2;
+  display: flex;
+  width: 100%;
+  gap: 0.5rem;
 }
 
 .navTabs li {
-    width: 100%;
+  width: 100%;
 }
 
 .navTabs li button {
-    width: 100%;
-    color: $white;
-    font-size: 0.8rem;
-    padding: 1rem;
-    background-color: $grayStart;
-    border-radius: .2rem;
-    border: none;
+  width: 100%;
+  color: $white;
+  font-size: 0.8rem;
+  padding: 1rem;
+  background-color: $grayStart;
+  border-radius: 0.2rem;
+  border: none;
 }
 
-.navTabs li button:hover {
-    color: $black;
-    font-weight: 500;
-    background-color: $orange;
+@media (min-width: 788px) {
+  .navTabs {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2rem;
+  }
+
+  .navTabs li button {
+    width: 240px;
+    padding: 0.6rem 2rem;
+  }
 }

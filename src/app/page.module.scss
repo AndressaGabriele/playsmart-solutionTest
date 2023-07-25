@@ -1,16 +1,24 @@
-@import '../common/styles/variables';
+@import "../common/styles/variables";
 
 .iconColor {
-    color: $orange;
+  color: $orange;
 }
 
 .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 2rem;
-    padding: 2rem 1.5rem;
-    background-color: $grayEnd;
-    border-bottom: .1rem solid $grayStart;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 1.5rem;
+  background-color: $grayEnd;
+  border-bottom: 0.1rem solid $grayStart;
 }
 
+@media (min-width: 788px) {
+  .navbar {
+    display: grid;
+    justify-content: center;
+    border-right: 0.1rem solid $grayStart;
+    padding: 2rem 0 2rem 1.5rem;
+  }
+}

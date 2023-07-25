@@ -1,35 +1,52 @@
-@import "../../common/styles/variables"; 
+@import "../../common/styles/variables";
 
 .content {
-    padding: 2rem 1rem;
-    min-height: calc(100vh - 11.5rem);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
+  padding: 2rem 1rem;
+  min-height: calc(100vh - 11.5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .content h2 {
-    color: $orange;
-    font-size: 1.5rem;
-    font-weight: 600;
+  color: $orange;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .gallery img {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
-    border-radius: .3rem;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 0.3rem;
 }
 
 .gallery img:hover {
-    border: .2rem solid $orange;
+  border: 0.2rem solid $orange;
+}
+
+@media (min-width: 788px) {
+  .content {
+    flex: 1;
+    min-height: 100vh;
+    padding: 1rem 0;
+  }
+  .gallery {
+    max-width: 892px;
+    align-items: center;
+    justify-content: center;
+  }
+  .gallery img {
+    width: 200px;
+    height: 150px;
+  }
 }
