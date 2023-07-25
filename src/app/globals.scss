@@ -1,9 +1,10 @@
-@import '../styles/variables';
+@import '../common/styles/variables';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 body {

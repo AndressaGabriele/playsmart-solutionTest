@@ -1,0 +1,28 @@
+@import "../../common/styles/variables";
+
+.navTabs {
+    order: 3;
+    display: flex;
+    width: 100%;
+    gap: .5rem;
+}
+
+.navTabs li {
+    width: 100%;
+}
+
+.navTabs li button {
+    width: 100%;
+    color: $white;
+    font-size: 0.8rem;
+    padding: 1rem;
+    background-color: $grayStart;
+    border-radius: .2rem;
+    border: none;
+}
+
+.navTabs li button:hover {
+    color: $black;
+    font-weight: 500;
+    background-color: $orange;
+}

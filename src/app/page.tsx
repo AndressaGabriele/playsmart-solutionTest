@@ -1,11 +1,15 @@
-'use client' 
+"use client"
 
-import * as Icon from "@phosphor-icons/react";
+import * as Icon from "@phosphor-icons/react"
+
 
 import SwitchThemeButton from "@/components/SwitchThemeButton"
 
-import '@/styles/_variables.scss'
-import styles from './page.module.scss';
+
+import "@/common/styles/_variables.scss"
+import styles from "./page.module.scss"
+import GalleryImage from "@/components/GalleryImage/GalleryImage"
+import TabList from "@/components/TabList/TabList"
 
 export default function Home() {
   return (
@@ -13,17 +17,13 @@ export default function Home() {
       <nav className={styles.navbar}>
         <Icon.Image size={40} className={styles.iconColor} />
 
-        <ul className={styles.navTabs}>
-          <li>Landscape</li>
-          <li>Dogs</li>
-          <li>Cats</li>
-          <li>Games</li>
-        </ul>
-
         <SwitchThemeButton />
+        
+        <TabList />
+       
       </nav>
-      <section>
-      </section>
+      <GalleryImage />
+      
     </>
   )
 }

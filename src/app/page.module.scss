@@ -1,4 +1,4 @@
-@import '../styles/variables';
+@import '../common/styles/variables';
 
 .iconColor {
     color: $orange;
@@ -6,22 +6,11 @@
 
 .navbar {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 2rem;
     padding: 2rem 1.5rem;
     background-color: $grayEnd;
     border-bottom: .1rem solid $grayStart;
 }
 
-.navTabs {
-    display: flex;
-}
-
-.navTabs li {
-    color: $white;
-    padding: 1rem;
-    background-color: $grayStart;
-}
-
-.content {
-    background-color: $grayMiddle;
-}
