@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.button {
+    width: 2.5rem;
+    height: 2.5rem;
+
+    display: grid;
+    place-items: center;
+
+    border: none;
+    border-radius: .2rem;
+    background-color: $grayStart;
+}
+
+.iconColor {
+    color: $white;
+}
