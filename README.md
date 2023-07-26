@@ -1,6 +1,8 @@
 # PlaySmart Solution Challenge
 ---
-### Presentation of mobile and desktop versions:(./src/imgsReadme/versionmobile.jpg);
+### Presentation of mobile and desktop versions:
+
+![version mobile](./src/imgsReadme/versionmobile.jpg);
 
 ![version desktop](./src/imgsReadme/versiondesktop.jpg)
 
@@ -20,9 +22,7 @@
 - [x] You make something creative, animation
 - [x] No use of third libraries
 - [x] Fell free to style colours, sizers
-- [ ] Build a light and dark theme
-- [ ] Multi language app
-- [ ] Expand collapse the card view 
+
 
 ## Differentials:
 - [x] Deploy on vercel: https://playsmart-solution-test.vercel.app/
