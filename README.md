@@ -1,8 +1,6 @@
-# Desafio PlaySmart Solution
+# PlaySmart Solution Challenge
 ---
-### Presentantion of versions mobile and desktop
-
-![version mobile](./src/imgsReadme/versionmobile.jpg);
+### Presentation of mobile and desktop versions:(./src/imgsReadme/versionmobile.jpg);
 
 ![version desktop](./src/imgsReadme/versiondesktop.jpg)
 
@@ -42,7 +40,7 @@
 
 ## Solutions:
 
-1. ` for (let i = 0; i < data.results.length; i++) {if (i === 9) {break}  const item = data.results[i]unsplashPictures.push({img: item.urls.regular, alt: item.alt_description,}) `
+1. I implemented a counter controlled by a for loop that checks for the length of the array of images to be mapped and breaks the process when the array length reaches X
 
 ## Installation: 
 
@@ -50,4 +48,3 @@
 2. ` Git clone ` 
 3. ` npm install `
 4. ` npm run dev `
-
