@@ -1,6 +1,6 @@
 # Desafio PlaySmart Solution
 ---
-### Apresentação das versões em Mobile e Desktop:
+### Presentantion of versions mobile and desktop
 
 ![version mobile](./src/imgsReadme/versionmobile.jpg);
 
