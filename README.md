@@ -45,6 +45,6 @@
 ## Installation: 
 
 1. Make sure you have Node.js and npm installed on your system.
-2. Clone the repository using Git clone.
-3. Run npm install.
-4. Execute npm run dev.
+2. Clone the repository using `Git clone.`
+3. Run `npm install.`
+4. Execute `npm run dev.`
