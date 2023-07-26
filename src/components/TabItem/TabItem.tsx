@@ -8,8 +8,9 @@ export function TabItem({ name, status, onClick }: TabItemProps) {
   const color = status === "on" ? "#EA6830" : "#484848"
 
   return (
-    <li>
-      <button style={{ backgroundColor: color }} onClick={onClick}>
+    <li> 
+      {/* faltou um cuidado com o cursor do mouse */}
+      <button style={{ backgroundColor: color, cursor: 'pointer' }} onClick={onClick}> 
         {name}
       </button>
     </li>

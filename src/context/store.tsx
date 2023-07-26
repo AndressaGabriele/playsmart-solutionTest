@@ -2,9 +2,14 @@
 
 import { createContext, useState } from "react"
 
-const GlobalContext = createContext({
+interface GlobalContextI {  // faltou a interface do contexto
+  activeTab: number,
+  setActiveTab: Function,
+}
+
+const GlobalContext = createContext<GlobalContextI>({
   activeTab: 0,
-  setActiveTab: (value: number) => {},
+  setActiveTab: (value: number) => { },
 })
 
 const GlobalContextProvider = ({ children }: { children: React.ReactNode }) => {

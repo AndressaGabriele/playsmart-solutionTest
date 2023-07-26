@@ -21,7 +21,7 @@ export default function TabList() {
           <TabItem
             name={tab}
             status="on"
-            key={`tab-${i}`}
+            key={`tab-${tab}`} // na documentacao do react nao se recomenda o uso do index como key.
             onClick={() => handleClick(i)}
           />
         ) : (

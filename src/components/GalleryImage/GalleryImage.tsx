@@ -26,9 +26,12 @@ export default function GalleryImage() {
       )
       const data = await response.json()
 
+      if (!data) {
+        return <>Loading...</>
+      }
       const unsplashPictures = []
 
-      for (let i = 0; i < data.results.length; i++) {
+      for (let i = 0; i < data?.results?.length; i++) {
         if (i === 9) {
           break
         }

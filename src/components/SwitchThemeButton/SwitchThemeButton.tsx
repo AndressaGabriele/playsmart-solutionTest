@@ -7,5 +7,6 @@ export function SwitchThemeButton() {
     <button className={styles.button}>
       <Icon.MoonStars size={24} className={styles.iconColor} />
     </button>
+    // acho que nao deu tempo de terminar
   )
 }
