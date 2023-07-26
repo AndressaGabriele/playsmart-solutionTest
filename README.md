@@ -22,12 +22,12 @@
 - [x] You make something creative, animation
 - [x] No use of third libraries
 - [x] Fell free to style colours, sizers
-- [] Build a light and dark theme
-- [] Multi language app
-- [] Expand collapse the card view 
+- [ ] Build a light and dark theme
+- [ ] Multi language app
+- [ ] Expand collapse the card view 
 
 ## Differentials:
-- [x] Deploy on vercel: ![version mobile](https://playsmart-solution-test.vercel.app/);
+- [x] Deploy on vercel: https://playsmart-solution-test.vercel.app/
 
 ## Tech:
 
@@ -50,3 +50,4 @@
 2. ` Git clone ` 
 3. ` npm install `
 4. ` npm run dev `
+
